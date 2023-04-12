@@ -1,0 +1,268 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.header{
+    background-color: rgba(255, 183, 0, 1);
+    padding:0  100px;
+}
+.logo{
+    cursor: pointer;
+    padding-left: 80px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav button{
+    color: black;
+    padding: 0 5px;
+    margin: 0 20px;
+    position: relative;
+    background-color: transparent;
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: 780;
+    border-color:transparent;
+    display: inline-block;
+    align-items: center;
+    cursor: pointer;
+}
+/*......................................................................picture part........................................................................................*/
+.machine {
+    width: 100%;
+    height: 80vh;
+    display: block;
+    background-image: url(images/machine.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: absolute;
+    right: 250px;
+    font-weight: 400;
+}
+.btn button {
+    font-weight: 600;
+    border-style: none;
+    padding: 10px 10px 15px 15px;
+    background-color: red;
+    color: white;
+}
+.btn button:hover{
+    color: black;
+    background-color: white;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.container{
+    width: 100%;
+    height: 60vh;
+    background-color: rgba(223, 223, 232, 0.892);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-here{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box1{
+    font-family:Helvetica,Arial,sans-serif;
+    width: 50%;
+    height: 50%;
+    border-style: hidden;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-right: 20px;
+    padding: 40px 40px 40px 40px;
+
+}
+.box1 h5{
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.img{
+    width: 100%;
+    height: 60%;
+}
+.img img{
+    display: inline;
+    width: 50px;
+    height:50px;
+}
+p{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-weight: 620;
+    cursor: pointer;
+
+}
+p:hover{
+    color:black;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.highlight{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.achive1{
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 20px;
+        background-color: whitesmoke;
+        border: 10px shadow black; 
+        border-color: none;
+}
+.img{
+    width: 100%;
+    height: 50%;
+}
+
+.photo img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55vh;
+    height: 35vh;
+}
+h2{
+    font-family:Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 620;
+    font-size: 20px;
+}
+h2:hover{
+    color: red;
+}
+.achive1 .p{
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(95, 91, 91);
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.info{
+    width: 100%;
+    height: 45vh;
+    background-color: #FFB700;
+    display: flex;
+    cursor: pointer;
+}
+#switch{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    border-color: transparent;
+    padding: 15px 15px ;
+}
+.info1{
+    font-weight: 800;
+    margin: 30px 90px 50px 150px; 
+    width: 50%;
+}
+.info2{
+    font-weight: 800;
+    margin: 30px 90px 50px 150px;
+    width: 50%;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.footer{
+    background-color: black;
+}
+.footer .col{
+    font-family: Graphik-Semibold,Helvetica,Arial,sans-serif;;
+    flex-basis: 15%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #bfbfbf;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif,Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.footer .col a:hover{
+    color: #FFB700;
+}
+.footer .row{
+    width: 80%;
+    margin-left: 200px;
+    display: flex;
+    padding: 20px 30px 20px 30px;
+    
+}
+#id{
+    display: flex;
+    padding: 10px 0;
+    font-weight: 900;
+    padding-right: 25px;
+}
+.foot a{
+    display: inline-flex;
+    margin-left: 70px;
+    margin-top: -80px;
+    font-weight: 400;
+    color: #bfbfbf;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Times New Roman',Times, serif,Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.foot a:hover{
+    color: #FFB700;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 40px;
+    color: #bfbfbf;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.logolast{
+    background-color: black;
+    display: flex;
+}
+.logoone{
+    width: 30px;
+    height: 30px;
+}
+.logosocial{
+    margin-left: 60px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
